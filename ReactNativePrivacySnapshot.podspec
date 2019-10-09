@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.authors      = { "Kayla" => "akosiken@gmail.com" }
   s.platform     = :ios, "8.0"
   s.source         = { :git => 'https://github.com/BlueWallet/react-native-privacy-snapshot.git', :tag => "#{s.version}"}
-  s.source_files = "ios", "ios/**/*.{h,m}"
+  s.source_files = "ios", "RCTPrivacySnapshot/*.{h,m}"
   s.dependency 'React'
 end
